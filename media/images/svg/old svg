@@ -1,0 +1,62 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background Circle -->
+                <circle cx="250" cy="250" r="240" fill="#082040" />
+                
+                <!-- Mountain Range Silhouette -->
+                <path d="M0,350 L60,290 L100,320 L150,260 L200,290 L250,210 L300,250 L350,220 L400,270 L450,230 L500,290 L500,500 L0,500 Z" fill="#1a472a" />
+                
+                <!-- San Francisco Peaks -->
+                <path d="M150,350 L200,260 L230,290 L250,210 L280,260 L300,230 L350,350 Z" fill="#2a623d" />
+                
+                <!-- Neural Network Pattern -->
+                <g fill="none" stroke="#61dafb" stroke-width="2">
+                    <!-- Nodes -->
+                    <circle cx="180" cy="200" r="8" fill="#61dafb" opacity="0.8" />
+                    <circle cx="250" cy="150" r="8" fill="#61dafb" opacity="0.8" />
+                    <circle cx="320" cy="200" r="8" fill="#61dafb" opacity="0.8" />
+                    <circle cx="150" cy="250" r="8" fill="#61dafb" opacity="0.8" />
+                    <circle cx="250" cy="250" r="8" fill="#61dafb" opacity="0.8" />
+                    <circle cx="350" cy="250" r="8" fill="#61dafb" opacity="0.8" />
+                    <circle cx="200" cy="300" r="8" fill="#61dafb" opacity="0.8" />
+                    <circle cx="300" cy="300" r="8" fill="#61dafb" opacity="0.8" />
+                
+                    <!-- Connections -->
+                    <line x1="180" y1="200" x2="250" y2="150" opacity="0.6" />
+                    <line x1="250" y1="150" x2="320" y2="200" opacity="0.6" />
+                    <line x1="180" y1="200" x2="150" y2="250" opacity="0.6" />
+                    <line x1="180" y1="200" x2="250" y2="250" opacity="0.6" />
+                    <line x1="250" y1="150" x2="250" y2="250" opacity="0.6" />
+                    <line x1="320" y1="200" x2="250" y2="250" opacity="0.6" />
+                    <line x1="320" y1="200" x2="350" y2="250" opacity="0.6" />
+                    <line x1="150" y1="250" x2="200" y2="300" opacity="0.6" />
+                    <line x1="250" y1="250" x2="200" y2="300" opacity="0.6" />
+                    <line x1="250" y1="250" x2="300" y2="300" opacity="0.6" />
+                    <line x1="350" y1="250" x2="300" y2="300" opacity="0.6" />
+                </g>
+                
+                <!-- Stars representing astronomy connection -->
+                <g fill="#fff">
+                    <circle cx="100" cy="150" r="2" />
+                    <circle cx="150" cy="100" r="3" />
+                    <circle cx="340" cy="120" r="2" />
+                    <circle cx="400" cy="150" r="3" />
+                    <circle cx="380" cy="80" r="2" />
+                    <circle cx="120" cy="200" r="1" />
+                    <circle cx="420" cy="180" r="1" />
+                    <circle cx="80" cy="120" r="1" />
+                    <circle cx="360" cy="160" r="1" />
+                    <circle cx="300" cy="100" r="2" />
+                    <circle cx="200" cy="120" r="1" />
+                </g>
+                
+                <!-- Lowell Observatory Dome -->
+                <path d="M390,190 Q390,160 420,160 Q450,160 450,190 L450,200 L390,200 Z" fill="#d0d0d0" />
+                <path d="M390,200 L450,200 L450,210 L390,210 Z" fill="#a0a0a0" />
+                
+                <!-- Text -->
+                <g font-family="Arial, sans-serif" text-anchor="middle">
+                    <text x="250" y="380" font-size="28" fill="#ffffff" font-weight="bold">NORTHERN ARIZONA</text>
+                    <text x="250" y="415" font-size="42" fill="#61dafb" font-weight="bold">AI MEETUP</text>
+                    <text x="250" y="445" font-size="16" fill="#ffffff">FLAGSTAFF • LEARN • SHARE • GROW</text>
+                </g>
+            </svg>
