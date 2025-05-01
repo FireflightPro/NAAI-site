@@ -15,7 +15,7 @@
         <li><a href="#about">About</a></li>
         <!-- <li><a href="#resources">Resources</a></li>
         <li><a href="#location">Location</a></li> -->
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#footer">Contact</a></li>
       </ul>
     </nav>
 
@@ -25,12 +25,12 @@
       <!--  <img src="media/images/svg/naai-siteheader.svg" alt="NAAI Logo mountain scene">  -->
     </div>
 
-    <section class="hero">
-      <div class="hero-content">
+    <section id="hero">
+      <div class="hero hero-content">
         <h1>Welcome!</h1>
         <p>We are a community of AI enthusiasts based in Flagstaff, Arizona.<br/>
           We bring together people of all ages and experience levels to learn, share, and grow their knowledge and skills in artificial intelligence, while having fun!</p>
-        <a href="#events" class="btn">Attend Our Next Event</a>
+        <!-- <a href="#events" class="btn">Attend Our Next Event</a> -->
       </div>
     </section>
   </header>
@@ -59,7 +59,23 @@
                 <!-- <a href="#" class="btn">RSVP</a> -->
               </div>
             </div>
-
+            <div class="card">
+              <div class="card-img">
+                <img src="media/images/png/NAAImtgpic.png" alt="Illustration of people in a meeting" class="card-img">
+              </div>
+              <div class="card-content">
+                <div class="event-details">
+                  <h3>June Meeting</h3>
+                  <h4>June</h4>
+                  <p><strong>Date:</strong> June 17</p>
+                  <p><strong>Time:</strong> Noon to 1:30 PM</p>
+                  <p><strong>Location:</strong> Moonshot Accelerator Building, Main Conference Room</p>
+                  <p>Presentation by Katherine O'Donnell.</p>
+                  <p>Details to be announced soon.</p>
+                </div>
+                <!-- <a href="#" class="btn">Register</a> -->
+              </div>
+            </div>
             <div class="card">
                 <div class="card-img">
                   <img src="media/images/png/NAAImtgpic.png" alt="Illustration of people in a meeting" class="card-img">
@@ -67,12 +83,6 @@
                 <div class="card-content">
                   <div class="event-details">
                     <h3>Summer Meetings Scheduled</h3>
-                    <h4>June</h4>
-                    <p><strong>Date/Time:</strong> June 17, Noon to 1:30 PM</p>
-                    <p><strong>Location:</strong> Moonshot Accelerator Building, Main Conference Room</p>
-                    <p>Presentation by Katherine O'Donnell. Details to be announced soon.</p>
-                  </div>
-                  <div class="event-details">
                     <h4>July</h4>
                     <p><strong>Date/Time:</strong> July 15, Noon to 1:30 PM</p>
                     <p><strong>Location:</strong> Moonshot Accelerator Building, Main Conference Room</p>
@@ -320,7 +330,7 @@
           </section>
   -->
 
-    <section id="contact">
+    <!-- <section id="contact">
       <h2>Get In Touch</h2>
       <div class="contact-form">
         <form action="#" method="POST">
@@ -370,60 +380,59 @@
           <button type="submit">Send Message</button>
         </form>
       </div>
-    </section>
-
+    </section> -->
   </main>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-column">
-                <h3>Northern Arizona AI Meetup</h3>
-                <p>A community of AI enthusiasts in Flagstaff, Arizona, dedicated to learning, sharing, and growing together.</p>
-                <div class="social-links">
-                    <a href="#">🌐</a>
-                    <a href="#">📱</a>
-                    <a href="#">📘</a>
-                    <a href="#">📸</a>
-                    <a href="#">👥</a>
-                </div>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li>Home</li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#resources">Resources</a></li> -->
-                    <li><a href="#location">Location</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="#">Beginner Guides</a></li>
-                    <li><a href="#">Project Repository</a></li>
-                    <li><a href="#">Learning Paths</a></li>
-                    <li><a href="#">Meeting Archives</a></li>
-                    <li><a href="#">Discussion Forum</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-column">
-                <h3>Contact Us</h3>
-                <p>Email: info@northernazai.org</p>
-                <p>Join our Discord community</p>
-                <p>Sign up for our monthly newsletter</p>
-            </div>
-        </div>
-        
-        <div class="copyright">
-            <p>&copy; 2025 Northern Arizona AI Meetup. All rights reserved.</p>
-            <p>Website designed by FireFlight</p>
-        </div>
-    </footer>
+  <footer id="footer">
+      <div class="footer-content">
+          <div class="footer-description">
+              <h3>Northern Arizona AI Meetup</h3>
+              <p>A community of AI enthusiasts in Flagstaff, Arizona, dedicated to learning, sharing, and growing together.</p>
+              <!-- <div class="social-links">
+                  <a href="#">🌐</a>
+                  <a href="#">📱</a>
+                  <a href="#">📘</a>
+                  <a href="#">📸</a>
+                  <a href="#">👥</a>
+              </div> -->
+          </div>
+
+        <!--<div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>Home</li>
+                <li><a href="#events">Events</a></li>
+              <li><a href="#location">Location</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-column">
+              <h3>Resources</h3>
+              <ul>
+                  <li><a href="#">Beginner Guides</a></li>
+                  <li><a href="#">Project Repository</a></li>
+                  <li><a href="#">Learning Paths</a></li>
+                  <li><a href="#">Meeting Archives</a></li>
+                  <li><a href="#">Discussion Forum</a></li>
+              </ul>
+          </div> -->
+
+          <div class="footer-contact">
+              <h3>Contact Us</h3>
+              <a href="mailto: ariel@fireflight.pro">Email</a>
+            <!-- <p>Join our Discord community</p>
+            <p>Sign up for our monthly newsletter</p> -->
+          </div>
+      </div>
+
+      <div class="copyright">
+          <p>&copy; 2025 Northern Arizona AI Meetup. All rights reserved.</p>
+          <p>Website designed and sponsored by <a href="https://fireflight.ai?subject=Mail from NAAI Site" class="sponsor">FireFlight</a></p>
+      </div>
+  </footer>
 
     <script>
         // Simple JavaScript to enhance user experience
