@@ -164,10 +164,13 @@ h2 {
   background-color: var(--primary-light);
 } */
 
+.indent {
+  padding-left: 2rem;
+}
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-  gap: 2rem;
+  /* grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 2rem; */
 }
 
 .card {
