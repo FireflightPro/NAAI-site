@@ -167,6 +167,11 @@ h2 {
 .indent {
   padding-left: 2rem;
 }
+
+.spacer {
+  margin-top: 1rem;
+}
+
 .card-grid {
   display: grid;
   /* grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
@@ -211,12 +216,16 @@ h2 {
   color: #666;
 }
 
+.event-details h2 {
+  font-size: 2rem;
+}
+
 .event-details h3 {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 }
 
 .event-details h4 {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: var(--primary-dark);
 }
 
